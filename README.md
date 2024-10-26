@@ -1,7 +1,7 @@
 ## Criação de resumos automaticos de vídeos do Youtube com a API Groq com saida de arquivo .md
 
 - A partir da url de qualquer vídeo do youtube
-- O vídeo é baixo em mp3 e transcrito com "whisper-large-v3" da Groq
+- O vídeo é baixo em mp3 e transcrito com "whisper-large-v3" da Groq (Limite de 25mb por arquivo de audio)
 - O modelo "llama-3.1-70b-versatile" a partir de um prompt analisa a transcrição e retorna uma Introdução, Principais Pontos Abordados e uma Conclusão em um arquivo .md
 
  
